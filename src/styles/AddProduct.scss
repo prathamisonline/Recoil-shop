@@ -1,0 +1,36 @@
+.AddProduct {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  //   justify-content: center;
+  align-items: flex-start;
+  height: 250px;
+  margin: 50px 100px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 30px;
+
+  &_title {
+    font-size: large;
+  }
+  input {
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  select {
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  button {
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    background-color: aquamarine;
+  }
+}

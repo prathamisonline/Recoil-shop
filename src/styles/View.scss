@@ -1,0 +1,11 @@
+.columnView {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.RowView {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  gap: 40px;
+}

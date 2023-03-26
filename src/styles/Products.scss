@@ -1,0 +1,43 @@
+.product {
+  &_card {
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  h1 {
+    font-size: 80px;
+  }
+
+  &_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  &_btn {
+    &_edit {
+      padding: 10px 20px;
+      background-color: yellow;
+      border: none;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+    &_delete {
+      background-color: red;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-left: 10px;
+    }
+  }
+}
